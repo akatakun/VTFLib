@@ -8,7 +8,7 @@ This is a Linux port of [VTFLib](http://nemesis.thewavelength.net/index.php?c=14
 	git clone https://github.com/panzi/VTFLib.git
 	mkdir VTFLib/build
 	cd VTFLib/build
-	cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+	cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DUSE_LIBTXC_DXTN=[ON|OFF] -DBUILD_SHARED_LIBS=[ON|OFF]
 	make -j`nproc`
 	sudo make install
 

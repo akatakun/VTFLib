@@ -111,6 +111,7 @@ install(CODE ${VTFLIB_PC_INSTALL_CODE})
 
 # ---- sub directories --------------------------------------------------------
 add_subdirectory(src)
+add_subdirectory(app)
 
 # ---- docs tareget -----------------------------------------------------------
 
